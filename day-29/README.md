@@ -49,6 +49,3 @@ Just open the link, enter your API keys in the settings panel, allow microphone 
 
 ✨ With the docs now in place, we’re all set for **Day 30**, the final milestone where the project is wrapped up and showcased in its completed form.  
 
-
-## 📂 Project Structure  
-
