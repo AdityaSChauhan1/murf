@@ -72,7 +72,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository**
     ```sh
-    git clone https://github.com/siddbhatt18/30-days-of-voice-agents.git
+    git clone https://github.com/AdityaSChauhan1/murf.git
     ```
 2.  **Navigate to a specific day's project directory** (e.g., `day-13` for the latest version).
     ```sh
@@ -113,3 +113,20 @@ Here is a summary of the progress made during the first 13 days of the challenge
   * **Day 11**: Made the application more robust by adding **server-side and client-side error handling**, including a friendly fallback audio message for API failures.
   * **Day 12**: Performed a major **UI revamp**, simplifying the interface to a single, animated record button and a cleaner, more modern aesthetic.
   * **Day 13**: Focused on **documentation**, creating this comprehensive `README.md` file to explain the project's architecture, features, and setup.
+  * **Day 14**: Code refactor → services + schemas.
+  * **Day 15**: Added agent persona.
+  * **Day 16**: Real-time STT streaming.
+  * **Day 17**: Streaming LLM replies.
+  * **Day 18**: Streaming TTS (faster playback).
+  * **Day 19**: Switched to WebSockets for live comms.
+  * **Day 20**: Turn detection in STT.
+  * **Day 21**: Integrated SerpAPI for live Google Search.
+  * **Day 22**: Function calling in Gemini → decides when to search.
+  * **Day 23**: UI shows real-time transcription + agent’s "thinking".
+  * **Day 24**: Loading animations + better feedback.
+  * **Day 25**: Welcome message on startup.
+  * **Day 26**: Agent gets a name → MURF Ai.
+  * **Day 27**: Settings panel for API key input in UI.
+  * **Day 28**: Cloud deployment on Render.
+  * **Day 29**: Polished README + architecture docs.Day 30: 🎉 Final version of a fully featured Voice AI Assistant.
+  * **Day 30**: 🎉 Final version of a fully featured Voice AI Assistant.
