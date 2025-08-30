@@ -72,7 +72,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository**
     ```sh
-    git clone https://github.com/siddbhatt18/30-days-of-voice-agents.git
+    git clone https://github.com/AdityaSChauhan1/murf.git
     ```
 2.  **Navigate to a specific day's project directory** (e.g., `day-13` for the latest version).
     ```sh
