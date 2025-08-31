@@ -1,64 +1,51 @@
-# Day 28: Deploying the Voice Agent to the Cloud
+# 🗓️ Day 29: Documentation & Final Touches ✍️  
 
-Welcome to Day 28 of the 30 Days of Voice Agents Challenge\! Today, we've taken our agent public by deploying it to a cloud hosting provider, making it accessible to anyone with a web browser.
+As the challenge nears its finish line, today was all about **polishing the project’s documentation** and ensuring everything is ready for the final showcase. While no new features were added, this stage was critical for making the project easy to understand, reproducible, and developer-friendly.  
 
-## 🧠 What We Built
+---
 
-  * **Public Deployment**: We have successfully deployed the agent to Render.com, a cloud platform with a generous free tier. This makes our agent accessible via a public URL.
-  * **Live Agent**: Our voice agent is now live and can be accessed and used by anyone, anywhere.
+## 🧠 Today’s Focus  
 
------
+- **README Overhaul** – Reviewed and refined the `README.md` to make sure all sections reflect the current state of the project.  
+- **Clarity & Usability** – Rewrote setup instructions, tech stack details, and architecture notes for better readability.  
+- **Final Prep for Day 30** – This cleanup step ensures that new contributors, recruiters, or anyone trying the project can get started without confusion.  
 
-## 🛠 Tech Stack
+---
 
-The tech stack remains the same, but we are now leveraging a cloud platform to host our application.
+## 🛠 Updated Tech Stack  
 
-  * **Backend**: `FastAPI`, `uvicorn`, `requests`, `assemblyai`, `google-generativeai`, `python-dotenv`, `websockets`, `google-search-results`
-  * **Frontend**: `HTML`, `Bootstrap`, `JavaScript` (with `AudioContext` and `WebSocket API`)
-  * **Deployment**: `Render.com`
-  * **AI APIs**:
-      * Murf AI (Streaming Text-to-Speech)
-      * AssemblyAI (Real-Time Speech-to-Text with Turn Detection)
-      * Google Gemini (Streaming LLM with Function Calling)
-      * SerpAPI (Real-time Google Search Results)
+The stack remains consistent with the deployed version:  
 
------
+- **Backend**: FastAPI, Uvicorn, Requests, AssemblyAI SDK, Google Generative AI, Python-Dotenv, WebSockets, Google-Search-Results  
+- **Frontend**: HTML, Bootstrap, JavaScript (with WebSocket API + AudioContext)  
+- **AI APIs**:  
+  - **Murf AI** – Streaming Text-to-Speech  
+  - **AssemblyAI** – Real-time Speech-to-Text with turn detection  
+  - **Google Gemini** – Streaming LLM + function calling  
+  - **SerpAPI** – Live Google Search integration  
+- **Deployment**: Render.com  
 
-## 🚀 Run the App
+---
 
-Our voice agent is now live\! You can access and interact with it here:
+## 🚀 Live App  
 
-**[https://marvis-voice-agent-l7da.onrender.com/](https://marvis-voice-agent-l7da.onrender.com/)**
+The project is deployed and accessible online here:  
 
-Simply visit the link, click the settings icon to enter your API keys, grant microphone permissions, and start chatting\!
+👉 [Voice Agent Demo](https://murf-n9n6.onrender.com/)  
 
------
+Just open the link, enter your API keys in the settings panel, allow microphone permissions, and start chatting! 🎤🤖  
 
-## 📂 Project Structure
 
-The project structure is optimized for deployment.
+---
 
-```
-AI Voice Agent/
-├── main.py      # Handles WebSocket connections and API key logic
-├── services/
-│   ├── llm.py   # Handles interactions with the Gemini LLM
-│   ├── stt.py   # Manages real-time speech-to-text
-│   └── tts.py   # Manages text-to-speech conversion
-├── schemas.py
-├── templates/
-│   └── index.html # Main UI for the voice agent
-├── static/
-│   ├── script.js  # Frontend logic for recording and settings
-│   └── style.css  # UI styles
-├── requirements.txt # Lists all project dependencies for deployment
-└── .env           # Stores API keys for local development
-```
+## ✅ Completed So Far  
 
------
+- **Day 01–26** – Built the foundation: backend, STT, TTS, LLM, memory, persona, and search capabilities.  
+- **Day 27** – Revamped UI + added browser-based API key configuration.  
+- **Day 28** – Cloud deployment to make the agent publicly accessible.  
+- **Day 29** – Documentation finalization → polished and developer-ready.  
 
-## ✅ Completed Days
+---
 
-  * **Day 01 - 26**: Foundational work, from setting up the server and integrating AI services to giving the agent a persona and web search capabilities.
-  * **Day 27**: Revamped the UI and implemented a settings panel for API key configuration directly in the browser.
-  * **Day 28**: Successfully deployed the agent to a public cloud server, making it accessible to all.
+✨ With the docs now in place, we’re all set for **Day 30**, the final milestone where the project is wrapped up and showcased in its completed form.  
+

@@ -12,11 +12,39 @@ The repository is structured by day, with each folder representing a significant
 
 ### Key Features
 
-  * **Voice-to-Voice Interaction**: Speak to the agent and receive a spoken response, creating a seamless conversational experience.
-  * **Contextual Conversations**: The agent maintains a chat history for each session, enabling it to understand the flow of dialogue and respond to follow-up questions intelligently.
-  * **End-to-End AI Pipeline**: It seamlessly integrates multiple AI services for a complete Speech-to-Text → Large Language Model → Text-to-Speech pipeline.
-  * **Modern & Intuitive UI**: A clean, user-friendly interface with a single-button control and visual feedback for different states (e.g., ready, recording, thinking).
-  * **Robust Error Handling**: Includes a fallback audio response for graceful failure when an API call is unsuccessful, ensuring a smooth user experience.
+### Core Functionality
+- **🎙️ Real-time Speech Recognition**: Live audio streaming with AssemblyAI Universal Streaming
+- **🧠 Multi-Persona AI Conversations**: Choose from Developer, Sosuke Aizen, Monkey D. Luffy, or Politician personas powered by Google Gemini
+- **🔊 Streaming Text-to-Speech**: High-quality voice synthesis with real-time audio streaming using Murf AI
+- **🔍 Intelligent Web Search**: Real-time web search using Tavily API with contextual integration
+- **💾 Persistent Session Management**: MongoDB-powered conversation history with session switching
+- **⚡ WebSocket Real-time Processing**: Instant audio processing and response generation
+
+### Advanced AI Capabilities
+- **🎭 Dynamic Persona Switching**: Real-time persona changes during conversations
+- **🔄 Context-Aware Conversations**: Maintains conversation context across sessions
+- **🧠 Intelligent Duplicate Detection**: Prevents processing of repeated audio inputs
+- **⚡ Concurrent Processing Management**: Handles multiple simultaneous requests efficiently
+- **🔄 Auto-retry Logic**: Robust error recovery and connection management
+- **📊 Live Processing Status**: Real-time feedback on audio processing and AI generation
+
+### Modern Interface Features
+- **🎨 Contemporary UI**: Modern card-based interface with gradient backgrounds and animations
+- **👤 Persona Selection**: Interactive persona switcher with visual indicators
+- **💬 Dual Chat Interfaces**: Both modern streaming chat and legacy conversation history
+- **📱 Responsive Design**: Mobile-optimized interface that works across all devices
+- **🔄 Session Management**: Create new chats, switch between sessions, view conversation history
+- **⚙️ Settings Modal**: User-friendly API key configuration with validation
+
+### Technical Excellence
+- **🔊 Audio Chunk Processing**: Real-time audio chunk handling with base64 encoding
+- **🎵 Streaming Audio Playback**: Real-time audio chunk processing and playback
+- **💾 Automatic Audio Cleanup**: Smart temporary file management and cleanup
+- **🔐 Secure API Key Management**: In-browser storage with validation
+- **📊 Comprehensive Logging**: Detailed logging with configurable levels
+- **🛡️ Comprehensive Error Handling**: Graceful fallbacks for service failures
+- **🔄 Fallback TTS Mechanisms**: Multiple TTS strategies for reliability
+- **⚡ Performance Optimization**: Efficient WebSocket connection reuse and context management
 
 -----
 
